@@ -4,7 +4,7 @@ Example iOS Swift Application to work with the ING API wrapper I created.
 
 # The API
 
-I made this app to work with my homemade, cool ING PHP API Wrapper so it can fetch info from ING's API. I'll post this API soon here as well as I understand you don't want to send your username + password to my server and you can see how it works (trust me, it isn't that much of a breakthrough).
+I made this app to work with my homemade, cool [ING PHP API Wrapper](https://github.com/tomgekeerd/ING-PHP-API) so it can fetch info from ING's API. I'll post this API soon here as well as I understand you don't want to send your username + password to my server and you can see how it works (trust me, it isn't that much of a breakthrough).
 
 # The App
 
