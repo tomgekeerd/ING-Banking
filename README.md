@@ -14,7 +14,6 @@ The app is a simple Swift Application I made in about two hours to work with tha
 
 Using this wrapper is pretty straightforward, you create your instance and assign your username + password onto this via the init and call a method of your choice. Data will be given in NSDictionary
 
-''' Swift
 
     let ing = INGAPI(username: "my_username", andPassword: "my_password")
     
@@ -22,4 +21,3 @@ Using this wrapper is pretty straightforward, you create your instance and assig
       print(response)
     }
 
-'''
