@@ -14,6 +14,7 @@
 		E21E93CF1D81939C0090A2F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21E93CE1D81939C0090A2F9 /* Assets.xcassets */; };
 		E21E93D21D81939C0090A2F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21E93D01D81939C0090A2F9 /* LaunchScreen.storyboard */; };
 		E21E93DA1D8193AD0090A2F9 /* INGAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21E93D91D8193AD0090A2F9 /* INGAPI.swift */; };
+		E21E93DE1D8349410090A2F9 /* INGHomeTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21E93DD1D8349410090A2F9 /* INGHomeTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		E21E93D11D81939C0090A2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E21E93D31D81939C0090A2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E21E93D91D8193AD0090A2F9 /* INGAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INGAPI.swift; sourceTree = "<group>"; };
+		E21E93DD1D8349410090A2F9 /* INGHomeTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INGHomeTableVC.swift; sourceTree = "<group>"; };
 		F80960CE71FB9C749CC895E0 /* Pods_ING.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ING.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,14 +75,31 @@
 			isa = PBXGroup;
 			children = (
 				E21E93C71D81939C0090A2F9 /* AppDelegate.swift */,
-				E21E93C91D81939C0090A2F9 /* ViewController.swift */,
-				E21E93D91D8193AD0090A2F9 /* INGAPI.swift */,
+				E21E93E01D8349620090A2F9 /* VC's */,
+				E21E93DF1D8349440090A2F9 /* API */,
 				E21E93CB1D81939C0090A2F9 /* Main.storyboard */,
 				E21E93CE1D81939C0090A2F9 /* Assets.xcassets */,
 				E21E93D01D81939C0090A2F9 /* LaunchScreen.storyboard */,
 				E21E93D31D81939C0090A2F9 /* Info.plist */,
 			);
 			path = ING;
+			sourceTree = "<group>";
+		};
+		E21E93DF1D8349440090A2F9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E21E93D91D8193AD0090A2F9 /* INGAPI.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		E21E93E01D8349620090A2F9 /* VC's */ = {
+			isa = PBXGroup;
+			children = (
+				E21E93C91D81939C0090A2F9 /* ViewController.swift */,
+				E21E93DD1D8349410090A2F9 /* INGHomeTableVC.swift */,
+			);
+			name = "VC's";
 			sourceTree = "<group>";
 		};
 		EE1895815B229F00D89DA97D /* Frameworks */ = {
@@ -216,6 +235,7 @@
 				E21E93CA1D81939C0090A2F9 /* ViewController.swift in Sources */,
 				E21E93C81D81939C0090A2F9 /* AppDelegate.swift in Sources */,
 				E21E93DA1D8193AD0090A2F9 /* INGAPI.swift in Sources */,
+				E21E93DE1D8349410090A2F9 /* INGHomeTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

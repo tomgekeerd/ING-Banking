@@ -10,15 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let ing = INGAPI(username: "my_username", andPassword: "my_password")
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        ing.getDebitDetails { (response, error) in
-            print(response)
-        }
-        
+
         // Do any additional setup after loading the view, typically from a nib.
     }
 

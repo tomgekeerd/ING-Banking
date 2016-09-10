@@ -68,17 +68,16 @@ class INGAPI: NSObject {
     
     private func makeAPICall(action: String, params: [String: String], completionHandler: (NSDictionary?, NSError?) -> ()) {
         
-        var paramaters = [
+        var parameters = [
             "username": self.username,
             "password": self.password
         ]
         
         if params.count > 0 {
-            paramaters.update(params)
+            parameters.update(params)
         }
         
-        Alamofire.request(.GET, "\(baseURL)\(version)/\(action)", parameters: paramaters)
-            .authenticate(user: username, password: password)
+        Alamofire.request(.GET, "\(baseURL)\(version)/\(action)", parameters: parameters)
             .responseJSON { response in
                 switch response.result {
                 case .Success(let value):
